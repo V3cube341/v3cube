@@ -779,6 +779,16 @@ ul.genfet li strong .number {
     text-align: right;
     margin-top: -10px;
 }
+ul.genfet li strong span.number:after {
+    content: attr(data-number);
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 40px;
+    color: #e2e2e2;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+}
 ul.genfet li i {
     width: 62px;
     height: 62px;
